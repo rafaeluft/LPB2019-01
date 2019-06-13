@@ -32,7 +32,7 @@ int main(){
             scanf("%d", &temp);
             //TODO: Ha um erro de lógica aqui. 
             //Descubra qual é e proponha uma solução
-            for(i=0, found=0; ocupado[i]==1 && i<32 && V[i]!=temp; cont+=ocupado[i], i++);
+            for(i=0, found=0; ocupado[i]==1 && i<32 && V[i]!=temp;  i++);
             if(i<32){
                 printf("Encontrado na pos: %i\n", i);
                 if(op==REMOVER){
